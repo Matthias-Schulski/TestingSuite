@@ -1,0 +1,16 @@
+[connection]
+id=Refurb Wired
+uuid=11111111-2222-3333-4444-555555555555
+type=ethernet
+autoconnect=true
+
+[ethernet]
+mac-blacklist=
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+systemctl enable refurb-x.service || true
+systemctl enable refurb.service || true
+

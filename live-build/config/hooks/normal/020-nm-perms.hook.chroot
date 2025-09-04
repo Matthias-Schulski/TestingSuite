@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+chmod 600 /etc/NetworkManager/system-connections/*.nmconnection 2>/dev/null || true
+systemctl enable NetworkManager.service || true
+
